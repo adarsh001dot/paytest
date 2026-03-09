@@ -64,7 +64,7 @@ IST = timezone('Asia/Kolkata')
 
 # Point Packages
 POINT_PACKAGES = {
-    "5": {"points": 5, "price": 25, "emoji": "⚡", "popular": False},
+    "5": {"points": 5, "price": 1, "emoji": "⚡", "popular": False},
     "10": {"points": 10, "price": 50, "emoji": "💫", "popular": False},
     "15": {"points": 15, "price": 75, "emoji": "✨", "popular": False},
     "20": {"points": 20, "price": 100, "emoji": "⭐", "popular": True},
