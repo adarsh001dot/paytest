@@ -57,7 +57,7 @@ OWNER_USERNAME = "@VIP_X_OFFICIAL"  # Updated admin username
 PAYMENT_API_URL = "https://gateway.darkxalpha.in/api/create-order/"
 PAYMENT_CHECK_URL = "https://gateway.darkxalpha.in/api/check-order-status/"
 PAYMENT_USER_TOKEN = "8fc4ae9832f97f9f009a0df4278339e996246ac8835dfbd87a38fe93f909d414"
-PAYMENT_REDIRECT_URL = "https://vipxofficial.in/pay/"  # Change this to your webhook URL
+PAYMENT_REDIRECT_URL = "https://vipxofficial.in/pay/webhook.php"  # Change this to your webhook URL
 
 # India Timezone
 IST = timezone('Asia/Kolkata')
