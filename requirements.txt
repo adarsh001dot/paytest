@@ -1,0 +1,22 @@
+# Telegram Bot Core
+python-telegram-bot==20.7
+
+# Database
+pymongo==4.5.0
+motor==3.3.2
+
+# Timezone & Scheduling
+pytz==2023.3
+APScheduler==3.10.4
+
+# HTTP Requests
+requests==2.31.0
+
+# Data Processing
+python-dateutil==2.8.2
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Utilities
+cachetools==5.3.1
