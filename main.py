@@ -44,21 +44,19 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8612834168:AAFT1VX35aEpyEOMoszHf2ymrr2R4iP3gvQ"
+BOT_TOKEN = "8294367270:AAFbCzMXn3vTAcYxCNeOMPOdwtcSN8GpQnE"
 MONGODB_URI = "mongodb+srv://nikilsaxena843_db_user:3gF2wyT4IjsFt0cY@vipbot.puv6gfk.mongodb.net/?appName=vipbot"
 API_URL = "http://api.subhxcosmo.in/api"
 API_KEY = "suryanshHacker"
 OWNER_ID = 7459756974
 OWNER_USERNAME = "@VIP_X_OFFICIAL"
-
-# ==================== PAYMENT GATEWAY CONFIGURATION ====================
+# ==================== PAYMENT GATEWAY CONIGURAION ====================
 PAYMENT_GATEWAY = {
     'api_url': 'https://pay.darkxalpha.in/api',
     'user_token': 'eb9844d1272df213788048c31c313038',
-    'webhook_url': 'https://your-domain.com/webhook',  # REPLACE WITH YOUR ACTUAL WEBHOOK URL
-    'redirect_url': 'https://t.me/your_bot_username',  # REPLACE WITH YOUR BOT USERNAME
+    'webhook_url': 'https://vipxofficial.in/pay/webhook.php',  # Updated!
+    'redirect_url': 'https://t.me/your_bot_username',
 }
-
 # Point Packages with prices
 POINT_PACKAGES = {
     "100": {"points": 100, "price": 50, "emoji": "⚡", "popular": False},
